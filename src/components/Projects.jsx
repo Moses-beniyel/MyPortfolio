@@ -2,7 +2,24 @@ import React from "react";
 import "../styles/Projects.css";
 
 const projects = [
-  {
+    {
+    title: "Path Visualizer",
+    description:
+      "A webpage to visualize the graph traversal",
+    tech: ["HTML", "CSS", "JavaScript","React"],
+    demoLink: "https://path-visualizer-4u0i8smuf-moses-beniyels-projects.vercel.app/",
+    githubLink: "https://github.com/Moses-beniyel/BMI_CALCULATER",
+    image: "/Assets/PathVisualizer.png",
+  },
+    {
+    title: "BMI Calculater",
+    description:
+      "A classic Tic-Tac-Toe game built using React. Features dynamic game board, move tracking, and reset functionality with modern UI styling.",
+    tech: ["HTML", "CSS", "JavaScript", "FastApi","MySql"],
+    demoLink: "https://bmi-calculater-seven.vercel.app/",
+    githubLink: "https://github.com/Moses-beniyel/BMI_CALCULATER",
+    image: "/Assets/BMI.png",
+  },{
     title: "Weather App",
     description:
       "A responsive weather application that fetches real-time data using OpenWeatherMap API. Displays temperature, weather conditions, and icons based on user input location.",
@@ -65,6 +82,7 @@ const projects = [
     githubLink: "https://github.com/Moses-beniyel/tic-tac-toe/",
     image: "/Assets/tic-tac-toe.png",
   },
+  
 ];
 
 const Projects = () => {
