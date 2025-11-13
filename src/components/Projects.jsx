@@ -3,9 +3,36 @@ import "../styles/Projects.css";
 
 const projects = [
     {
+    title: "Face Mask Detection",
+    description:
+      "An AI-based project that detects whether a person is wearing a face mask or not in real time using Convolutional Neural Networks (CNNs) model is trained on a dataset of masked and unmasked faces and can be integrated with webcam input for live detection",
+    tech: ["Python","Tensorflow","keras","NumPy", "Pandas","Matplotlib", "Jupyter Notebook"],
+    demoLink:"",
+    githubLink: "https://github.com/Moses-beniyel/Face-Mask-Detetection",
+    image: "/Assets/faceMaskPic.jpg",
+  },
+    {
+    title: "Titanic Survival Prediction",
+    description:
+      "A Machine Learning project that predicts whether a passenger survived the Titanic disaster based on factors like age, gender, ticket class, and fare",
+    tech: ["Python", "NumPy", "Pandas","Matplotlib", "Jupyter Notebook"],
+    demoLink:"",
+    githubLink: "https://github.com/Moses-beniyel/ML-PROJECTS/tree/main/TitanicPrediction",
+    image: "/Assets/titanicSurvialPrediction.png",
+  },
+    {
+    title: "Image Classifier",
+    description:
+      "A machine learning project that classifies images into predefined categories using a Convolutional Neural Network (CNN). Built with Python, TensorFlow, and Keras, the model was trained on labeled datasets to accurately identify and predict image classes.",
+    tech: ["Python", "TensorFlow", "Keras", "NumPy", "Pandas","Matplotlib", "Jupyter Notebook"],
+    demoLink:"",
+    githubLink: "https://github.com/Moses-beniyel/ML-PROJECTS/tree/main/ImageClassifier",
+    image: "/Assets/ImageClassifier.webp",
+  },
+    {
     title: "Path Visualizer",
     description:
-      "A webpage to visualize the graph traversal",
+      "A web-based interactive tool that visualizes how different pathfinding algorithms work in real time It helps users understand how algorithms Breadth-First Search (BFS), and Depth-First Search (DFS) find the shortest path between two points on a grid.",
     tech: ["HTML", "CSS", "JavaScript","React"],
     demoLink: "https://path-visualizer-4u0i8smuf-moses-beniyels-projects.vercel.app/",
     githubLink: "https://github.com/Moses-beniyel/BMI_CALCULATER",
@@ -110,13 +137,14 @@ const Projects = () => {
                 ))}
               </div>
               <div className="project-links">
+                {project.demoLink &&(
                 <a
                   href={project.demoLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   🔗 Live Demo
-                </a>
+                </a>)}
                 <a
                   href={project.githubLink}
                   target="_blank"

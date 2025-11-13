@@ -14,13 +14,12 @@ const Intro = () => {
           Hi,
         </h1>
         <h1>I'm <span className="name ">A.Moses Beniyel</span></h1>
-        <h2>Frontend Developer | DSA Enthusiast | 3rd Year CSE</h2>
+        <h2>MERN Stack Developer | ML Enthisiast |DSA Enthusiast | 3rd Year CSE</h2>
 
         <p className="intro-description ">
-          I'm a passionate web developer with strong skills in React and
-          JavaScript. I enjoy building modern, responsive, and accessible web
-          apps that bring ideas to life. Alongside web development, I actively
-          practice DSA to strengthen my problem-solving and coding fundamentals.
+          I’m a web developer skilled in React and JavaScript, building modern and responsive apps.
+          I also explore machine learning — built projects like Face Mask Detection and Titanic Prediction using Python and TensorFlow.
+          I love sharpening my DSA skills to grow as a well-rounded software engineer.
         </p>
         <div className="contact-info ">
           <a
