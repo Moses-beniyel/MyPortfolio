@@ -36,7 +36,7 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript","React"],
     demoLink: "https://path-visualizer-4u0i8smuf-moses-beniyels-projects.vercel.app/",
     githubLink: "https://github.com/Moses-beniyel/BMI_CALCULATER",
-    image: "/Assets/PathVisualizer.png",
+    image: "/Assets/pathVisualizer.png",
   },
     {
     title: "BMI Calculater",
