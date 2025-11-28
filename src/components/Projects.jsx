@@ -34,8 +34,8 @@ const projects = [
     description:
       "A web-based interactive tool that visualizes how different pathfinding algorithms work in real time It helps users understand how algorithms Breadth-First Search (BFS), and Depth-First Search (DFS) find the shortest path between two points on a grid.",
     tech: ["HTML", "CSS", "JavaScript","React"],
-    demoLink: "https://path-visualizer-8vzodwq5n-moses-beniyels-projects.vercel.app/",
-    githubLink: "https://github.com/Moses-beniyel/BMI_CALCULATER",
+    demoLink: "https://path-visualizer-dun.vercel.app/",
+    githubLink: "https://github.com/Moses-beniyel/Path-Visualizer",
     image: "/Assets/pathVisualizer.png",
   },
     {
